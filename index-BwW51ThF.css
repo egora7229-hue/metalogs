@@ -1,0 +1,28 @@
+<?php
+// ─── Название проекта ─────────────────────────────────────────────────────
+// Меняй APP_NAME чтобы изменить название во всём приложении
+define('APP_NAME',    'CORTEGE');       // Короткое имя (заголовок сайдбара, title)
+define('APP_TITLE',   'CORTEGE Logs'); // Полный заголовок страницы
+
+// ─── Основная БД (InfinityFree) ───────────────────────────────────────────
+define('DB_HOST',     'sql302.infinityfree.com');
+define('DB_NAME',     'if0_41180421_metalogs');
+define('DB_USER',     'if0_41180421');
+define('DB_PASS',     'LYyvTgpfhH8');
+define('DB_CHARSET',  'utf8mb4');
+
+// ─── Авторизация ──────────────────────────────────────────────────────────
+define('SESSION_SECRET',  '123123123');
+define('OWNER_USERNAME',  'Marlboro');  // Ник владельца — получает права автоматически
+
+// ─── RCON ─────────────────────────────────────────────────────────────────
+define('RCON_HOST',     '');
+define('RCON_PORT',     7777);
+define('RCON_PASSWORD', '');
+
+// ─── Игровая БД (Мейз Хостинг) ───────────────────────────────────────────
+define('GAME_DB_HOST', '164.132.206.179');
+define('GAME_DB_NAME', 'gs336889');
+define('GAME_DB_USER', 'gs336889');
+define('GAME_DB_PASS', 'jvBBO0SIuRNZ');
+define('GAME_DB_PORT', 3306);
